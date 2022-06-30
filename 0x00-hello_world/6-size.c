@@ -1,7 +1,7 @@
 #include <stdio.h>
-/** 
+/**
  * main - Entry point
- * Description - prints the size of various types on the computer it is compiled
+ * Description - prints the size of various types
  * Return: Always 0 (Success)
  */
 
@@ -12,11 +12,11 @@ int main(void)
 	long int longIntType;
 	long long int longLongType;
 	float floatType;
-	printf("Size of a char: %ld bytes(s)\n", sizeof(charType));
-	printf("Size of an int: %ld bytes(s)\n", sizeof(intType));
-	printf("Size of a long int: %ld bytes(s)\n", sizeof(longIntType));
-	printf("Size of a long long int: %ld bytes(s)\n", sizeof(longLongType));
-	printf("Size of a float: %ld bytes(s)\n", sizeof(floatType));
+	printf("Size of a char: %ld byte(s)\n", sizeof(charType));
+	printf("Size of an int: %ld byte(s)\n", sizeof(intType));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(longIntType));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(longLongType));
+	printf("Size of a float: %ld byte(s)\n", sizeof(floatType));
 
-	return 0;
+	return (0);
 }
