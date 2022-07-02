@@ -4,7 +4,6 @@
  * Return: 0 (Success)
  */
 int main(void)
-int main(void)
 {
 	int i, j;
 	int a, b, c, d;
