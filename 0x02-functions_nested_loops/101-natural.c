@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - Entry point
+ * main - Entry point for program
  * Return: 0 (Success))
  */
 int main(void)
