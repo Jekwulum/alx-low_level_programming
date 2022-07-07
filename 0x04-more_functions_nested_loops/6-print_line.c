@@ -10,6 +10,8 @@ void print_line(int n)
 	c = 0;
 	while (c < n)
 	{
+		if (c <= 0)
+			break
 		
 		_putchar('_');
 
