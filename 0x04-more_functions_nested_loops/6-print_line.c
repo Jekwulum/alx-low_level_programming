@@ -5,17 +5,11 @@ i#include "main.h"
  */
 void print_line(int n)
 {
-	int c;
+int i;
 
-	c = 0;
-	while (c < n)
+for (i = 0; i < n; i++)
 	{
-		if (c <= 0)
-			break
-		
-		_putchar('_');
-
-		c++;
+	_putchar('_');
 	}
 	_putchar('\n');
 }
