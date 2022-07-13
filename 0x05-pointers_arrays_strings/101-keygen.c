@@ -18,7 +18,7 @@ int main(void)
 		printf("%c", randd);
 		total -= randd;
 	}
-	print("%c", total);
+	printf("%c", total);
 
 	return (0);
 }
