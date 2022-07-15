@@ -6,3 +6,4 @@ int _strcmp(char *s1, char *s2);i
 void reverse_array(int *a, int n);i
 char *string_toupper(char *);
 char *cap_string(char *);
+void print_buffer(char *b, int size);
